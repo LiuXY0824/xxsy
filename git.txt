@@ -1,0 +1,97 @@
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d (master)
+$ cd aaa
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa (master)
+$ git config --global user.name "LiuXY0824"
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa (master)
+$ git config --global use.email "1952685471@qq.com"
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa (master)
+$ git init
+Reinitialized existing Git repository in D:/aaa/.git/
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa (master)
+$ git clone https://github.com/LiuXY0824/LXY.git
+Cloning into 'LXY'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa (master)
+$ git add 01.pptx
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa (master)
+$ git add 01.pptx
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa (master)
+$ cd LXY
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$ git add 01.pptx
+fatal: pathspec '01.pptx' did not match any files
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$ git add 01.pptx
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$ git commit -m"upload 01.pptx"
+[main 84d243c] upload 01.pptx
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 01.pptx
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$ git push
+fatal: unable to access 'https://github.com/LiuXY0824/LXY.git/': OpenSSL SSL_                                                                                 connect: SSL_ERROR_SYSCALL in connection to github.com:443
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$ git push
+fatal: unable to access 'https://github.com/LiuXY0824/LXY.git/': OpenSSL SSL_                                                                                 connect: SSL_ERROR_SYSCALL in connection to github.com:443
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$ git push
+
+
+
+
+
+      0 [sig] bash 2732! sigpacket::process: Suppressing signal 18 to win32 p                                                                                 rocess (pid 5720)
+      0 [sig] sh 14100! sigpacket::process: Suppressing signal 18 to win32 pr                                                                                 ocess (pid 8524)
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com':
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$ ^C
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$ git push
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$ git push
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': LiuXY0824
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.86 MiB | 147.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/LiuXY0824/LXY.git
+   4946ece..84d243c  main -> main
+
+LXY@LAPTOP-3VSBBSKD MINGW64 /d/aaa/LXY (main)
+$
